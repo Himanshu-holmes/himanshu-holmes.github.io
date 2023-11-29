@@ -16,7 +16,7 @@ function Intro() {
     <div className="sm:w-2/4 md:ml-20">
       <img
         className="mt-3 m-2 border-4 border-orange-500 rounded-full  object-cover "
-        src="./src/assets/Himpic.jpg"
+        src="/Himpic.jpg"
         alt="Rounded avatar"
       />
     </div>
