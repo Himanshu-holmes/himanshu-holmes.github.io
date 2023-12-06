@@ -15,7 +15,7 @@ function Intro() {
     </div>
     <div className="sm:w-2/4 md:ml-20">
       <img
-        className="mt-3 m-2 border-4 border-orange-500 rounded-full  object-cover "
+        className="mt-3 m-2 border-4 border-orange-500 rounded-full  transition-all duration-500 hover:scale-110 hover:rotate-2 "
         src="/Himpic.jpg"
         alt="Rounded avatar"
       />
