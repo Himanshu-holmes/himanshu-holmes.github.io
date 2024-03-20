@@ -2,7 +2,7 @@ function Intro() {
   return (
     <div className="flex flex-col-reverse md:flex-row p-2 mt-10">
         
-    <div className="sm:w-1/2 text-center  font-semibold md:leading-relaxed md:mt-20 text-2xl">
+    <div className="sm:w-1/2 text-justify  font-semibold md:leading-relaxed md:mt-20 text-2xl">
       Hello! I'm Himanshu, a dedicated Full Stack Developer proficient in
       the MERN stack, SQL, and TypeScript. With expertise in MongoDB for
       scalable databases, Express.js and Node.js for robust server-side
