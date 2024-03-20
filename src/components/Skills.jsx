@@ -91,7 +91,10 @@ const slides2 = [
 
 function Skills() {
   return (
-    <div>
+    <div id="skills">
+      <h1 className="p-10 md:p-20 font-black leading-none text-center text-3xl md:text-6xl  md:mb-16">
+        Skills
+      </h1>
 
      <InfiniteMovingCardsDemo testimonial={slides1}/>
       <InfiniteMovingCardsDemo testimonial={slides2}/>

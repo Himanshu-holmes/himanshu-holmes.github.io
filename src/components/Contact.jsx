@@ -1,4 +1,4 @@
-import { FaGithub, FaLinkedinIn, FaTwitter } from "react-icons/fa";
+
 // function Contact() {
 //   return (
 //     <div className="p-10 ">
@@ -20,13 +20,11 @@ const email = "himanshuholmes@gmail.com"
   };
 
   return (
-    <>
-     <div className="gap-10 flex flex-wrap text-6xl px-20 py-4">
-       <a href="https://github.com/Himanshu-holmes"><FaGithub/></a>
-       <a href="https://twitter.com/Himanshu_holmes"><FaTwitter/></a>
-       <a href="https://www.linkedin.com/in/himanshu-kumar-00538821b/"><FaLinkedinIn/></a>
-
-     </div>
+    <div className="pb-10 m-2">
+    <h1 className="p-10 md:pt-20 font-black leading-none text-center text-3xl md:text-6xl  ">
+        Contact me
+      </h1>
+     
       <div className=" flex flex-col gap-2">
         <p>
           Contact <span className=" font-semibold">Himanshu</span>{" "}
@@ -50,6 +48,6 @@ const email = "himanshuholmes@gmail.com"
           Send Message
         </Link>
       </div>
-    </>
+    </div>
   );
 }
