@@ -10,7 +10,7 @@ function App() {
     <div className="text-white p-4">
      <Navbar />
       <Intro />
-      <h1 className="text-6xl p-10 md:p-20 text-center underline decoration-pink-600">Project</h1>
+     
       <Projects />
       <Skills />
       <h1 className="text-6xl p-10 md:p-20 text-center underline decoration-pink-600" id="contact">Contact</h1>
